@@ -1,7 +1,8 @@
+
 head {
   flex-direction: column;
   body {
-    font-family: Arial, Helvetica, sans-serif;
+      font-family: "Roboto", sans-serif;
   }
   nav {
     height: 50px;
@@ -30,6 +31,7 @@ head {
   /* Typography CSS */
   
   h1 {
+    font-family: "Roboto", sans-serif;
     font-size: 30px;
     margin: 0px 0px 0px 40px;
     color: #000000;
@@ -56,6 +58,7 @@ head {
   }
   
   p {
+    font-family: roboto, sans-serif;
     font-size: 10px;
     font-weight: 300;
     color: #000000;
