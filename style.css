@@ -1,74 +1,73 @@
-
 head {
-flex-direction: column;
-body {
-  font-family: 'roboto', sans-serif;
-}
-nav {
-  height: 50px;
-  float: right;
-}
-.inline-block {
-  padding: 15px;
-  display: inline-block;
-}
-.left {
-  float: left;
-  height: 600px;
-  background-color: rgb(255, 255, 255);
-  width: 60%;
-  text-align: center;
-}
-.right {
-  float: left;
-  background-color: rgb(255, 255, 255);
-  height: 600px;
-  width: 40%;
-  text-align: center;
-}
-
-.card {
-  display: inline-block;
-  background-color: #ffffff;
-  border-radius: 5px;
-  height: 200px;
-  width: 150px;
-  margin: 35px;
-  margin-top: 50px;
-}
-
-/* Typography CSS */
-
-h1 {
-  font-size: 30px;
-  margin: 0px 0px 0px 40px;
-  color: #000000;
-  text-align: left;
-  text-decoration: none;
-}
-
-h2 {
-  font-size: 80px;
-  margin: 0px 0px;
-  color: #000000;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0px 0px;
-}
-
-h4 {
-  color: white;
-  font-weight: 400;
-  font-size: 22px;
-}
-
-p {
-  font-size: 10px;
-  font-weight: 300;
-  color: #000000;
-  text-align: left;
+  flex-direction: column;
+  body {
+    font-family: 'roboto', sans-serif;
+  }
+  nav {
+    height: 50px;
+    float: right;
+  }
+  .inline-block {
+    padding: 15px;
+    display: inline-block;
+  }
+  .left {
+    float: left;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    text-align: center;
+  }
+  .right {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 40%;
+    text-align: center;
+  }
+  
+  .card {
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 200px;
+    width: 150px;
+    margin: 35px;
+    margin-top: 50px;
+  }
+  
+  /* Typography CSS */
+  
+  h1 {
+    font-size: 30px;
+    margin: 0px 0px 0px 40px;
+    color: #000000;
+    text-align: left;
     text-decoration: none;
-}
+  }
+  
+  h2 {
+    font-size: 80px;
+    margin: 0px 0px;
+    color: #000000;
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 0px;
+  }
+  
+  h4 {
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+  }
+  
+  p {
+    font-size: 10px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+      text-decoration: none;
+  }
