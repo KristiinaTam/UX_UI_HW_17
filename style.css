@@ -15,13 +15,13 @@ nav {
 .left {
   float: left;
   height: 600px;
-  background-color: lightblue;
+  background-color: rgb(255, 255, 255);
   width: 60%;
   text-align: center;
 }
 .right {
   float: left;
-  background-color: lightgreen;
+  background-color: rgb(255, 255, 255);
   height: 600px;
   width: 40%;
   text-align: center;
@@ -29,7 +29,7 @@ nav {
 
 .card {
   display: inline-block;
-  background-color: #C6C6C6;
+  background-color: #ffffff;
   border-radius: 5px;
   height: 200px;
   width: 150px;
@@ -50,7 +50,7 @@ h1 {
 h2 {
   font-size: 80px;
   margin: 0px 0px;
-  color: #F10DA3;
+  color: #000000;
 }
 
 h3 {
