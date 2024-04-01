@@ -1,19 +1,74 @@
 
 head {
 flex-direction: column;
+body {
+  font-family: 'roboto', sans-serif;
+}
+nav {
+  height: 50px;
+  float: right;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
+}
+.left {
+  float: left;
+  height: 600px;
+  background-color: lightblue;
+  width: 60%;
+  text-align: center;
+}
+.right {
+  float: left;
+  background-color: lightgreen;
+  height: 600px;
+  width: 40%;
+  text-align: center;
 }
 
-  #navigation {
-    display:flex;
-    width: 25%;
-    align-items: right;
-    justify-content: space-around;
+.card {
+  display: inline-block;
+  background-color: #C6C6C6;
+  border-radius: 5px;
+  height: 200px;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
+}
 
-  }
-  #navigation p {
-    cursor: pointer;
-    text-decoration:none;
+/* Typography CSS */
 
-    footer{
-        background-color: #373738;
-    }
+h1 {
+  font-size: 30px;
+  margin: 0px 0px 0px 40px;
+  color: #000000;
+  text-align: left;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 80px;
+  margin: 0px 0px;
+  color: #F10DA3;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px 0px;
+}
+
+h4 {
+  color: white;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+p {
+  font-size: 10px;
+  font-weight: 300;
+  color: #000000;
+  text-align: left;
+    text-decoration: none;
+}
