@@ -1,12 +1,15 @@
 
-/*head { 
-  flex-direction: column;*/
+
+head{
+  flex-direction: column;
+}
   body {
       font-family: "Roboto", sans-serif;
   }
   nav {
     height: 50px;
     float: right;
+    color: #000000;
   }
   .inline-block {
     padding: 15px;
@@ -32,7 +35,7 @@
   
   h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 30px;
+    font-size: 80px;
     margin: 0px 0px 0px 40px;
     color: #000000;
     text-align: left;
@@ -40,7 +43,7 @@
   }
   
   h2 {
-    font-size: 80px;
+    font-size: 30px;
     margin: 0px 0px;
     color: #000000;
   }
@@ -58,10 +61,48 @@
   }
   
   p {
-    font-family: roboto, sans-serif;
-    font-size: 10px;
+    font-family: "roboto", sans-serif;
+    font-size: 18px;
     font-weight: 300;
     color: #000000;
     text-align: left;
       text-decoration: none;
+  }
+  
+
+  .container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-weight: 300; /* Light */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
   }
