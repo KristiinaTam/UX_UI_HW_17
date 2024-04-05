@@ -146,8 +146,8 @@ UMOCA-background-image{
     top: 0;
     left: 0;
     width: 100%;
-    height: 900px; /* Adjust height as needed */
-    background-image: url('path/to/umoca-background.jpg'); /* Specify UMOCA background image URL */
+    height: 900px; 
+    background-image: url(images/Animation\ \(1\).jpg); 
     background-size: cover;
     z-index: -1;
 }
