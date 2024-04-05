@@ -70,6 +70,88 @@ head{
   }
   
 
+  .GiftJoy
+
+  button {
+    padding: 2px 6px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+   
+  }
+.left2
+{
+  float: left;
+    margin: 20
+      px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 40%;
+    text-align: center;
+}
+.right2
+{
+    margin: 20px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 40%;
+    text-align: center;
+}
+
+
+
+.UMOCA
+
+  button {
+    padding: 2px 6px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #333;
+   
+  }
+.left2
+{
+  float: left;
+    margin: 20
+      px;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 40%;
+    text-align: center;
+}
+.right2
+{
+    margin: 20px;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    width: 40%;
+    text-align: center;
+}
+UMOCA-background-image{
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 900px; /* Adjust height as needed */
+    background-image: url('path/to/umoca-background.jpg'); /* Specify UMOCA background image URL */
+    background-size: cover;
+    z-index: -1;
+}
+
   .container {
     width: 50%;
     margin: 0 auto;
